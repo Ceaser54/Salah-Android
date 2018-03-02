@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Salah</string>
+
+    <string-array name="index">
+        <item>النية وغسل الكفين</item>
+        <item>المضمضة</item>
+        <item>الاستنشاق</item>
+        <item>غسل الوجه</item>
+        <item>غسل اليدين</item>
+        <item>مسح الراس</item>
+        <item>مس الاذنين</item>
+        <item>غسل الرجلين</item>
+    </string-array>
+
+
+
+</resources>

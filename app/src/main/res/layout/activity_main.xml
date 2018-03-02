@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo2"
+    tools:context="com.example.hp.salah.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:text="تعليم الوضوء للاطفال"
+                android:textColor="#f00a0a02"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/list"
+                >
+            </ListView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/msg"
+                android:id="@+id/im1"
+                android:background="#ffffff"
+                />
+
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/share"
+                android:background="#ffffff"
+                android:id="@+id/im2"
+                android:layout_marginBottom="10dp"
+
+                />
+            <ImageView
+                android:id="@+id/im3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/cancel"
+                android:background="#ffffff"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
